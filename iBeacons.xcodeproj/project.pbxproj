@@ -13,6 +13,14 @@
 		503C85D71CA3A11500D7584E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503C85D61CA3A11500D7584E /* Images.xcassets */; };
 		503C85DA1CA3A11500D7584E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 503C85D81CA3A11500D7584E /* LaunchScreen.xib */; };
 		503C85E61CA3A11500D7584E /* iBeaconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C85E51CA3A11500D7584E /* iBeaconsTests.swift */; };
+		503C862D1CA3CBCE00D7584E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C861F1CA3CBCE00D7584E /* AppDelegate.swift */; };
+		503C862E1CA3CBCE00D7584E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 503C86201CA3CBCE00D7584E /* LaunchScreen.xib */; };
+		503C862F1CA3CBCE00D7584E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503C86221CA3CBCE00D7584E /* Main.storyboard */; };
+		503C86301CA3CBCE00D7584E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503C86241CA3CBCE00D7584E /* Images.xcassets */; };
+		503C86311CA3CBCE00D7584E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 503C86251CA3CBCE00D7584E /* Info.plist */; };
+		503C86321CA3CBCE00D7584E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C86261CA3CBCE00D7584E /* ViewController.swift */; };
+		503C86331CA3CBCE00D7584E /* iBeacons_DestinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503C862B1CA3CBCE00D7584E /* iBeacons_DestinationTests.swift */; };
+		503C86341CA3CBCE00D7584E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 503C862C1CA3CBCE00D7584E /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +30,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 503C85C91CA3A11400D7584E;
 			remoteInfo = iBeacons;
+		};
+		503C86371CA3CBCE00D7584E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503C86271CA3CBCE00D7584E /* iBeacons-Destination.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 503C85F81CA3C1CE00D7584E;
+			remoteInfo = "iBeacons-Destination";
+		};
+		503C86391CA3CBCE00D7584E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503C86271CA3CBCE00D7584E /* iBeacons-Destination.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 503C860D1CA3C1CF00D7584E;
+			remoteInfo = "iBeacons-DestinationTests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +58,15 @@
 		503C85DF1CA3A11500D7584E /* iBeaconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		503C85E41CA3A11500D7584E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503C85E51CA3A11500D7584E /* iBeaconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconsTests.swift; sourceTree = "<group>"; };
+		503C861F1CA3CBCE00D7584E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		503C86211CA3CBCE00D7584E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		503C86231CA3CBCE00D7584E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		503C86241CA3CBCE00D7584E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		503C86251CA3CBCE00D7584E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503C86261CA3CBCE00D7584E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		503C86271CA3CBCE00D7584E /* iBeacons-Destination.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "iBeacons-Destination.xcodeproj"; sourceTree = "<group>"; };
+		503C862B1CA3CBCE00D7584E /* iBeacons_DestinationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iBeacons_DestinationTests.swift; sourceTree = "<group>"; };
+		503C862C1CA3CBCE00D7584E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +90,7 @@
 		503C85C11CA3A11400D7584E = {
 			isa = PBXGroup;
 			children = (
+				503C861D1CA3CBCE00D7584E /* iBeacons-Destination */,
 				503C85CC1CA3A11400D7584E /* iBeacons */,
 				503C85E21CA3A11500D7584E /* iBeaconsTests */,
 				503C85CB1CA3A11400D7584E /* Products */,
@@ -110,6 +142,47 @@
 				503C85E41CA3A11500D7584E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		503C861D1CA3CBCE00D7584E /* iBeacons-Destination */ = {
+			isa = PBXGroup;
+			children = (
+				503C861E1CA3CBCE00D7584E /* iBeacons-Destination */,
+				503C86271CA3CBCE00D7584E /* iBeacons-Destination.xcodeproj */,
+				503C862A1CA3CBCE00D7584E /* iBeacons-DestinationTests */,
+			);
+			path = "iBeacons-Destination";
+			sourceTree = "<group>";
+		};
+		503C861E1CA3CBCE00D7584E /* iBeacons-Destination */ = {
+			isa = PBXGroup;
+			children = (
+				503C861F1CA3CBCE00D7584E /* AppDelegate.swift */,
+				503C86201CA3CBCE00D7584E /* LaunchScreen.xib */,
+				503C86221CA3CBCE00D7584E /* Main.storyboard */,
+				503C86241CA3CBCE00D7584E /* Images.xcassets */,
+				503C86251CA3CBCE00D7584E /* Info.plist */,
+				503C86261CA3CBCE00D7584E /* ViewController.swift */,
+			);
+			path = "iBeacons-Destination";
+			sourceTree = "<group>";
+		};
+		503C86281CA3CBCE00D7584E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503C86381CA3CBCE00D7584E /* iBeacons-Destination.app */,
+				503C863A1CA3CBCE00D7584E /* iBeacons-DestinationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503C862A1CA3CBCE00D7584E /* iBeacons-DestinationTests */ = {
+			isa = PBXGroup;
+			children = (
+				503C862B1CA3CBCE00D7584E /* iBeacons_DestinationTests.swift */,
+				503C862C1CA3CBCE00D7584E /* Info.plist */,
+			);
+			path = "iBeacons-DestinationTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +252,12 @@
 			mainGroup = 503C85C11CA3A11400D7584E;
 			productRefGroup = 503C85CB1CA3A11400D7584E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 503C86281CA3CBCE00D7584E /* Products */;
+					ProjectRef = 503C86271CA3CBCE00D7584E /* iBeacons-Destination.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				503C85C91CA3A11400D7584E /* iBeacons */,
@@ -187,14 +266,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		503C86381CA3CBCE00D7584E /* iBeacons-Destination.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "iBeacons-Destination.app";
+			remoteRef = 503C86371CA3CBCE00D7584E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		503C863A1CA3CBCE00D7584E /* iBeacons-DestinationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "iBeacons-DestinationTests.xctest";
+			remoteRef = 503C86391CA3CBCE00D7584E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		503C85C81CA3A11400D7584E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503C86341CA3CBCE00D7584E /* Info.plist in Resources */,
+				503C862E1CA3CBCE00D7584E /* LaunchScreen.xib in Resources */,
+				503C862F1CA3CBCE00D7584E /* Main.storyboard in Resources */,
 				503C85D51CA3A11500D7584E /* Main.storyboard in Resources */,
+				503C86301CA3CBCE00D7584E /* Images.xcassets in Resources */,
 				503C85DA1CA3A11500D7584E /* LaunchScreen.xib in Resources */,
 				503C85D71CA3A11500D7584E /* Images.xcassets in Resources */,
+				503C86311CA3CBCE00D7584E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				503C862D1CA3CBCE00D7584E /* AppDelegate.swift in Sources */,
 				503C85D21CA3A11400D7584E /* ViewController.swift in Sources */,
+				503C86321CA3CBCE00D7584E /* ViewController.swift in Sources */,
 				503C85D01CA3A11400D7584E /* AppDelegate.swift in Sources */,
+				503C86331CA3CBCE00D7584E /* iBeacons_DestinationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +354,22 @@
 				503C85D91CA3A11500D7584E /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		503C86201CA3CBCE00D7584E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503C86211CA3CBCE00D7584E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		503C86221CA3CBCE00D7584E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503C86231CA3CBCE00D7584E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
